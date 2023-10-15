@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Tacna AI | Dispositivos</title>
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="index.html">
+                <img class="header__logo" src="img/logo.png" alt="logotipo">
+            </a>
+        </header>
+        <!--Encabezado-->
+
+        <nav class="navegacion">
+            <a class="navegacion__enlace" href="index.html">Home</a>
+            <a class="navegacion__enlace navegacion__enlace--activo" href="inventarios.html">Inventarios</a>
+            <a class="navegacion__enlace" href="pedidos.html">Pedidos</a>
+        </nav>
+
+        <!--Navegador-->
+
+        <main class="contenedor">
+            <h1>iPad Pro 10"</h1>
+            <div class="ipadpro10">
+                <img class="ipadpro10__imagen" src="img/ipadpro10.png" alt="iPad Pro">
+
+                <div class="ipadpro10__contenido">
+                    <p>Ubicación: </p>
+                        <form class="ipadpro10__contenido--ubicacion">
+                            <select>
+                                <option disabled selected>-- Ubicacion --</option>
+                                <option>Oficina 1</option>
+                                <option>Oficina 2</option>
+                                <option>Oficina 3</option>
+                                <option>Oficina 4</option>
+                                <option>Oficina 5</option>
+                                <option>AgTech</option>
+                                <option>Phoenix</option>
+                                <option>Cabina</option>
+                                <option>Alpha</option>
+                                <option>Azkaban</option>
+                            </select>
+                        </form>
+                    <p>Fallas: </p>
+                        <form class="ipadpro10__contenido--fallas">
+                            <select>
+                                <option disabled selected>-- Fallas --</option>
+                                <option>Pantalla quebrada</option>
+                                <option>No prende</option>
+                                <option>No carga</option>
+                                <option>No carga las tareas</option>
+                                <option>Otro</option>
+                            </select>
+                            <input type="text" placeholder="Descripción del error">
+                        </form>
+                    <p>Estatus: </p>
+                        <form class="ipadpro10__contenido--estatus">
+                            <select>
+                                <option disabled selected>-- Estatus --</option>
+                                <option>En produccion</option>
+                                <option>Fuera de produccion</option>
+                                <option>Enviada de regreso</option>
+                            </select>
+                        </form>
+                    <p>Privilegios: </p>
+                        <form class="ipadpro10__contenido--privilegios">
+                            <select>
+                                <option disabled selected>-- Privilegios --</option>
+                                <option>iPad de etiquetador</option>
+                                <option>iPad de lider</option>
+                                <option>iPad de QC</option>
+                                <option>iPad de supervisor</option>
+                                <option>iPad de adminsitrador</option>
+                                <option>ipad de CdC</option>
+                            </select>
+                        </form>
+                </div>
+            </div>
+        </main>
+
+        <!--Main-->
+
+        <footer class="footer">
+            <p class="footer__texto">Tacna AI Inventario - Todos los derechos reservados</p>
+        </footer>
+
+        <!--Pie de pagina-->
+
+    </body>
+</html>
